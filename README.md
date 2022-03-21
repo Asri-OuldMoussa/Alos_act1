@@ -67,4 +67,9 @@ Voici ci-dessous (Fig3) le résultat que nous avons obtenu :
 
 <strong>Fig3</strong> : Résultat obtenu après le filtrage
 
+<strong>Réponse de la question 3 :</strong>
+Les performances des application WEB peuvent être significativement améliorées en réutilisant les ressources déjà collectées précédemment en utilisant la mise en cache HTTP, car ces dernières réduisent la latence et le trafic du réseau.
+L’entête HTTP cache control contient des directives pour la mise en cache tant dans les requêtes que dans les réponses 
+no-cache : indique de renvoyer systématiquement la requête au serveur et ne servir une éventuelle version en cache que dans le cas où le serveur le demande.
+
 
