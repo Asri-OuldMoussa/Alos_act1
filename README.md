@@ -17,7 +17,7 @@ Nous avons installé NodeJs en lançant la commande :
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
-Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :
+Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
 `$ npm install -g json-server`. <br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 `$ sudo apt install npm `
@@ -67,7 +67,7 @@ Nous avons démarrée le serveur JSON en lançant la commande :
 
 Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
 Ensuite nous avons lancé livre.js en lançant la commande : 
-`$ node livre.js `, cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
+`$ node livre.js `<br/> cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
 
  ![image](https://user-images.githubusercontent.com/102021567/159341652-ec98705e-caf7-4c71-a86a-887b13920469.png)
 
