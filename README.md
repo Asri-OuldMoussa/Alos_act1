@@ -18,7 +18,7 @@ NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous
 
 <h2>Etape2 :</h2>
 Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
-`$ npm install -g json-server`.<br/>
+`$ npm install -g json-server`. <br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 `$ sudo apt install npm `
 
@@ -62,8 +62,8 @@ Voici ci-dessous (Fig1) les ressources en format Json
 Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
 
 <h2>Etape4 :</h2> 
-Nous avons démarrée le serveur JSON en lançant la commande :<br/>
-`$ json-server watch db.json`  
+Nous avons démarrée le serveur JSON en lançant la commande :
+`$ json-server --watch db.json`  
 
 Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
 Ensuite nous avons lancé livre.js en lançant la commande : 
