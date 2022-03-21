@@ -17,7 +17,7 @@ Nous avons installé NodeJs en lançant la commande :
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
-Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
+Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :
 `$ npm install -g json-server`<br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 `$ sudo apt install npm `
