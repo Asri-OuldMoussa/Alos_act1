@@ -63,7 +63,7 @@ Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la r
 
 <h2>Etape4 :</h2> 
 Nous avons démarrée le serveur JSON en lançant la commande :<br/>
-`$ json-server --watch db.json`  
+`$ json-server watch db.json`  
 
 Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
 Ensuite nous avons lancé livre.js en lançant la commande : 
