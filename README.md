@@ -13,12 +13,12 @@
 <h2>Etape1 :</h2>
 
 Nous avons installé NodeJs en lançant la commande :   
-`code` $ sudo apt-get install nodejs. <br/>;
+`code` $ sudo apt-get install nodejs. <br/>
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
-Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :
-`code` $ npm install -g json-server
+Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
+`code` $ npm install -g json-server<br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 `code` $ sudo apt install npm 
 
@@ -62,8 +62,8 @@ Voici ci-dessous (Fig1) les ressources en format Json
 Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
 
 <h2>Etape4 :</h2> 
-Nous avons démarrée le serveur JSON en lançant la commande :
-$ json-server --watch db.json  
+Nous avons démarrée le serveur JSON en lançant la commande :<br/>
+`code` $ json-server --watch db.json  
 
 Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
 Ensuite nous avons lancé livre.js en lançant la commande : 
