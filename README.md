@@ -38,6 +38,8 @@ Nous mettons à disposition trois ressources :
 
 Voici ci-dessous (Fig1) les ressources en format Json
 
+![image](https://user-images.githubusercontent.com/102021567/159341514-527115dc-3c99-4d90-b58d-b632ae3f6676.png)
+
 
 <strong>Fig1 </strong>: les 3 ressources e notre Api en format Json
 
@@ -51,7 +53,8 @@ Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier
 Ensuite nous avons lancé livre.js en lançant la commande : 
 $ node livre.js, cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
 
- 
+ ![image](https://user-images.githubusercontent.com/102021567/159341652-ec98705e-caf7-4c71-a86a-887b13920469.png)
+
 
 <strong>Fig 2 </strong>:  résultat obtenu livre.js
 
@@ -63,6 +66,7 @@ var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
 
 <strong>Réponse de la question 2</strong> : Nous avons défini une fonction m(url) <Cette fonction permet d’afficher seulement les titres de livre qui commence seulement par la lettre m> qui se trouve dans le fichier Qst2.js
 Voici ci-dessous (Fig3) le résultat que nous avons obtenu :
+![image](https://user-images.githubusercontent.com/102021567/159341803-0936de9f-3f69-4d3f-8db0-5361b29e4570.png)
 
 
 <strong>Fig3</strong> : Résultat obtenu après le filtrage
