@@ -36,12 +36,28 @@ Nous mettons à disposition trois ressources :
 
 </ol>
 
+Petite explication sur les clés de la ressource depotLivre
+
+IdProprietaire: c'est l'id du client (le propriétaire du livre) qui a déposé son livre pour l'échanger ou pour le vendre.
+
+IdLivre: c'est l'id du livre que son propriétaire a déposé.
+
+jrslsinc: jours restants pour supprimer le livre si n'as pas eu de confirmation.
+
+ddmajouc: dernière date de mise à jour ou confirmation. 
+
+Les deux dernières clé nous allons les utiliser comme variables de systèmes. 
+
+La valeur de La clé jrslsinc on la fixe à 30 jrs par exemple et elle sert à compter le nombre de jours restants pour supprimer le livre. Sa valeur sera décrémenté chaque jour. Dans le cas où le client ne nous a pas confirmé que son livre n'est pas encore vendu ou échangé pendant ces 30 jours on supprime son livre de notre base de données. Dans le cas où y'a eu une confirmation du client que sont livre n'est pas encore vendu ou échangé on la met à jour.
+
+La clé ddmajouc sa valeur sera initialisé au début au jour pendant lequel le client a déposé son livre et elle sera mise à jour à chaque fois que le client nous fasse une confirmation que son livre n'est pas encore vendu ou échangé.
+
 Voici ci-dessous (Fig1) les ressources en format Json
 
 ![image](https://user-images.githubusercontent.com/102021567/159341514-527115dc-3c99-4d90-b58d-b632ae3f6676.png)
 
+   <strong>Fig1 </strong>: les 3 ressources e notre Api en format Json
 
-<strong>Fig1 </strong>: les 3 ressources e notre Api en format Json
 
 Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
 
@@ -62,7 +78,7 @@ $ node livre.js, cette commande permet d’afficher les enregistrements livre qu
 
 <strong>Réponse de la question 1 </strong>  : Nous avons utilisé le paramètre de filtrage _limit dans l’url : 
 
-var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
+`code` var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
 
 <strong>Réponse de la question 2</strong> : Nous avons défini une fonction m(url) <Cette fonction permet d’afficher seulement les titres de livre qui commence seulement par la lettre m> qui se trouve dans le fichier Qst2.js
 Voici ci-dessous (Fig3) le résultat que nous avons obtenu :
