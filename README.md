@@ -13,7 +13,7 @@
 <h2>Etape1 :</h2>
 
 Nous avons installé NodeJs en lançant la commande :   
-`$ sudo apt-get install nodejs`. <br/>
+`$ sudo apt-get install nodejs`
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
