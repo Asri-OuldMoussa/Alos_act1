@@ -1,6 +1,6 @@
 var unirest = require("unirest");
 
-var req = unirest("GET", "http://localhost:3000/livre?_limit=10")
+var req = unirest("GET", "http://localhost:3000/livre?")
 
 req.headers({
 
