@@ -13,14 +13,14 @@
 <h2>Etape1 :</h2>
 
 Nous avons installé NodeJs en lançant la commande :   
-$ sudo apt-get install nodejs.
+`code` $ sudo apt-get install nodejs.
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
 Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :
-$ npm install -g json-server
+`code` $ npm install -g json-server
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
-$ sudo apt install npm 
+`code` $ sudo apt install npm 
 
 <h2>Etape3 :</h2> 
 Nous sommes passés à la conception de notre API, nous avons fait une modélisation a notre système, nous nous sommes posés ces deux questions : Comment allons-nous construire notre API ?, Quelles ressources nous mettons à disposition avec notre API ?
@@ -36,17 +36,17 @@ Nous mettons à disposition trois ressources :
 
 </ol>
 
-Petite explication sur les clés de la ressource depotLivre
+*Petite explication sur les clés de la ressource depotLivre*
 
-IdProprietaire: c'est l'id du client (le propriétaire du livre) qui a déposé son livre pour l'échanger ou pour le vendre.
+-IdProprietaire: c'est l'id du client (le propriétaire du livre) qui a déposé son livre pour l'échanger ou pour le vendre.
 
-IdLivre: c'est l'id du livre que son propriétaire a déposé.
+-IdLivre: c'est l'id du livre que son propriétaire a déposé.
 
-jrslsinc: jours restants pour supprimer le livre si n'as pas eu de confirmation.
+-jrslsinc: jours restants pour supprimer le livre si n'as pas eu de confirmation.
 
-ddmajouc: dernière date de mise à jour ou confirmation. 
+-ddmajouc: dernière date de mise à jour ou confirmation. 
 
-Les deux dernières clé nous allons les utiliser comme variables de systèmes. 
+==Les deux dernières clé nous allons les utiliser comme variables de systèmes. ==
 
 La valeur de La clé jrslsinc on la fixe à 30 jrs par exemple et elle sert à compter le nombre de jours restants pour supprimer le livre. Sa valeur sera décrémenté chaque jour. Dans le cas où le client ne nous a pas confirmé que son livre n'est pas encore vendu ou échangé pendant ces 30 jours on supprime son livre de notre base de données. Dans le cas où y'a eu une confirmation du client que sont livre n'est pas encore vendu ou échangé on la met à jour.
 
