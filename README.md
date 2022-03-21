@@ -28,18 +28,18 @@ Nous mettons à disposition trois ressources :
 
 <ol>
 
-<li>Client : C’est celui qui va déposer son livre pour l’échanger avec un autre ou le vendre.  </li>
+<li><strong>Client</strong> : C’est celui qui va déposer son livre pour l’échanger avec un autre ou le vendre.  </li>
 
-<li>Livre : Le livre déposé par un client </li>
+<li><strong>Livre</strong> : Le livre déposé par un client </li>
 
-<li>DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre </li>
+<li><strong>DepotLivre</strong> : Une ressource qui représente une classe-association entre les deux ressources Client et Livre </li>
 
 </ol>
 
 Voici ci-dessous (Fig1) les ressources en format Json
 
 
-Fig1 : les 3 ressources e notre Api en format Json
+<strong>Fig1 </strong>: les 3 ressources e notre Api en format Json
 
 Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
 
@@ -53,14 +53,18 @@ $ node livre.js, cette commande permet d’afficher les enregistrements livre qu
 
  
 
-Fig 2 :  résultat obtenu livre.js
+<strong>Fig 2 </strong>:  résultat obtenu livre.js
 
 <h2>Etape5 : </h2> <strong> Partie Exercice à rendre sur Moodle</strong>
 
-Réponse de la question 1 : Nous avons utilisé le paramètre de filtrage _limit dans l’url : 
+<strong>Réponse de la question 1 </strong>  : Nous avons utilisé le paramètre de filtrage _limit dans l’url : 
 
 var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
 
+<strong>Réponse de la question 2</strong> : Nous avons défini une fonction m(url) <Cette fonction permet d’afficher seulement les titres de livre qui commence seulement par la lettre m> qui se trouve dans le fichier Qst2.js
+Voici ci-dessous (Fig3) le résultat que nous avons obtenu :
 
+
+<strong>Fig3</strong> : Résultat obtenu après le filtrage
 
 
