@@ -1,9 +1,14 @@
 <h1># Alos_act1</h1>
 
-ALOS TP 1
-
+<strong> ALOS TP 1 </strong>
+<blockquote>
+	
 -	Le thème de notre Api : Selling and exchanging used books API
--	Nous avons travaillé sous l’OS Linux (Ubuntu)
+-	Nous avons travaillé sous l’OS Linux (Ubuntu)	
+	 
+</blockquote>
+
+
 
 <h2>Etape1 :</h2>
 
@@ -20,11 +25,16 @@ $ sudo apt install npm
 <h2>Etape3 :</h2> 
 Nous sommes passés à la conception de notre API, nous avons fait une modélisation a notre système, nous nous sommes posés ces deux questions : Comment allons-nous construire notre API ?, Quelles ressources nous mettons à disposition avec notre API ?
 Nous mettons à disposition trois ressources :
-<blockquote>
-	Client : C’est celui qui va déposer son livre pour l’échanger avec un autre ou le vendre.  
-	Livre : Le livre déposé par un client 
-	DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre  
-</blockquote>
+
+<ol>
+
+<li>Client : C’est celui qui va déposer son livre pour l’échanger avec un autre ou le vendre.  </li>
+
+<li>Livre : Le livre déposé par un client </li>
+
+<li>DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre </li>
+
+</ol>
 
 Voici ci-dessous (Fig1) les ressources en format Json
 
