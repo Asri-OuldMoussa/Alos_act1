@@ -16,3 +16,5 @@ Nous mettons à disposition trois ressources :
 	Livre : Le livre déposé par un client 
 	DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre  
 Voici ci-dessous (Fig1) les ressources en format Json
+
+![image](https://user-images.githubusercontent.com/102021567/159270739-ed1946eb-8e2f-4131-93ac-8db860e67a53.png)
