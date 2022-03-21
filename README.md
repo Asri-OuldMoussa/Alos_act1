@@ -10,3 +10,9 @@ Etape2 : Nous avons lancé le terminal sous Linux pour configurer le serveur JSO
 $ npm install -g json-server
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 $ sudo apt install npm 
+Etape3 : Nous sommes passés à la conception de notre API, nous avons fait une modélisation a notre système, nous nous sommes posés ces deux questions : Comment allons-nous construire notre API ?, Quelles ressources nous mettons à disposition avec notre API ?
+Nous mettons à disposition trois ressources :
+	Client : C’est celui qui va déposer son livre pour l’échanger avec un autre ou le vendre.  
+	Livre : Le livre déposé par un client 
+	DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre  
+Voici ci-dessous (Fig1) les ressources en format Json
