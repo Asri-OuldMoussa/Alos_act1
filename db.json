@@ -2828,5 +2828,67 @@
           "prix": 6.848,
           "lbeade": "Death At The Animals,Eliminating The Demons,Eliminating The Light"
         }
-    ]
+    ],
+    "depotLivre": [
+        {
+          "idProprietaire": 6,
+          "idLivre": 30,
+          "ddmajouc": "05-03-2021",
+          "jrslsinc": 3
+        },
+        {
+          "idProprietaire": 15,
+          "idLivre": 31,
+          "ddmajouc": "25-03-2021",
+          "jrslsinc": 28
+        },
+        {
+          "idProprietaire": 50,
+          "idLivre": 44,
+          "ddmajouc": "10-04-2021",
+          "jrslsinc": 9
+        },
+        {
+          "idProprietaire": 28,
+          "idLivre": 12,
+          "ddmajouc": "17-03-2021",
+          "jrslsinc": 24
+        },
+        {
+          "idProprietaire": 69,
+          "idLivre": 23,
+          "ddmajouc": "17-03-2021",
+          "jrslsinc": 29
+        },
+        {
+          "idProprietaire": 28,
+          "idLivre": 37,
+          "ddmajouc": "08-03-2021",
+          "jrslsinc": 20
+        },
+        {
+          "idProprietaire": 28,
+          "idLivre": 0,
+          "ddmajouc": "25-03-2021",
+          "jrslsinc": 15
+        },
+        {
+          "idProprietaire": 8,
+          "idLivre": 43,
+          "ddmajouc": "08-02-2021",
+          "jrslsinc": 22
+        },
+        {
+          "idProprietaire": 18,
+          "idLivre": 12,
+          "ddmajouc": "17-04-2021",
+          "jrslsinc": 19
+        },
+        {
+          "idProprietaire": 60,
+          "idLivre": 9,
+          "ddmajouc": "12-04-2021",
+          "jrslsinc": 12
+        }
+      ]
 }
