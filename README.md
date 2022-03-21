@@ -18,7 +18,7 @@ NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous
 
 <h2>Etape2 :</h2>
 Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
-`$ npm install -g json-server`<br/>
+`$ npm install -g json-server`.<br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
 `$ sudo apt install npm `
 
