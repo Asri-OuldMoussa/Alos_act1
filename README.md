@@ -43,3 +43,24 @@ Fig1 : les 3 ressources e notre Api en format Json
 
 Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
 
+<h2>Etape4 :</h2> 
+Nous avons démarrée le serveur JSON en lançant la commande :
+$ json-server --watch db.json  
+
+Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
+Ensuite nous avons lancé livre.js en lançant la commande : 
+$ node livre.js, cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
+
+ 
+
+Fig 2 :  résultat obtenu livre.js
+
+<h2>Etape5 : </h2> <strong> Partie Exercice à rendre sur Moodle</strong>
+
+Réponse de la question 1 : Nous avons utilisé le paramètre de filtrage _limit dans l’url : 
+
+var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
+
+
+
+
