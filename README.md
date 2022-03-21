@@ -17,3 +17,4 @@ Nous mettons à disposition trois ressources :
 	DepotLivre : Une ressource qui représente une classe-association entre les deux ressources Client et Livre  
 Voici ci-dessous (Fig1) les ressources en format Json
 
+<img width="580" alt="1" src="https://user-images.githubusercontent.com/102021567/159271447-2e86e50e-2b3d-42b7-a32f-96e6978ff1ca.png">
