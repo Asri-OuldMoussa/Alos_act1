@@ -13,14 +13,14 @@
 <h2>Etape1 :</h2>
 
 Nous avons installé NodeJs en lançant la commande :   
-`code` $ sudo apt-get install nodejs. <br/>
+`$ sudo apt-get install nodejs`. <br/>
 NodeJs est un environnement d'exécution JavaScript qui inclut tout ce dont nous avons besoin pour exécuter un programme écrit en JavaScript en dehors de Google. Ceci est dû au fait qu’il utilise le moteur JSV8 de Google. NodeJs est utilisé pour exécuter des scripts sur le serveur.
 
 <h2>Etape2 :</h2>
 Nous avons lancé le terminal sous Linux pour configurer le serveur JSON, en exécutant la commande suivante :<br/>
-`code` $ npm install -g json-server<br/>
+`$ npm install -g json-server`<br/>
 Nous devons également installer npm (le gestionnaire de package Node.Js) en lançant la commande :
-`code` $ sudo apt install npm 
+`$ sudo apt install npm `
 
 <h2>Etape3 :</h2> 
 Nous sommes passés à la conception de notre API, nous avons fait une modélisation a notre système, nous nous sommes posés ces deux questions : Comment allons-nous construire notre API ?, Quelles ressources nous mettons à disposition avec notre API ?
@@ -63,11 +63,11 @@ Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la r
 
 <h2>Etape4 :</h2> 
 Nous avons démarrée le serveur JSON en lançant la commande :<br/>
-`code` $ json-server --watch db.json  
+`$ json-server --watch db.json`  
 
 Cela exécute un serveur local sur le port 3000 et surveille le db.json fichier pour tout changement.  
 Ensuite nous avons lancé livre.js en lançant la commande : 
-$ node livre.js, cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
+`$ node livre.js `, cette commande permet d’afficher les enregistrements livre qui sont dans db.json. la figure ci-dessous (Fig2) qui montre le résultat que nous avons obtenu  
 
  ![image](https://user-images.githubusercontent.com/102021567/159341652-ec98705e-caf7-4c71-a86a-887b13920469.png)
 
@@ -78,7 +78,7 @@ $ node livre.js, cette commande permet d’afficher les enregistrements livre qu
 
 <strong>Réponse de la question 1 </strong>  : Nous avons utilisé le paramètre de filtrage _limit dans l’url : 
 
-`code` var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");
+`var req = unirest("GET", "http://localhost:3000/livre?_limit = 10");`
 
 <strong>Réponse de la question 2</strong> : Nous avons défini une fonction m(url) <Cette fonction permet d’afficher seulement les titres de livre qui commence seulement par la lettre m> qui se trouve dans le fichier Qst2.js
 Voici ci-dessous (Fig3) le résultat que nous avons obtenu :
