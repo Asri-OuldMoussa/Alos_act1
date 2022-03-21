@@ -18,3 +18,7 @@ Nous mettons à disposition trois ressources :
 Voici ci-dessous (Fig1) les ressources en format Json
 
 <img width="580" alt="1" src="https://user-images.githubusercontent.com/102021567/159271447-2e86e50e-2b3d-42b7-a32f-96e6978ff1ca.png">
+Fig1 : les 3 ressources e notre Api en format Json
+
+Ensuite, nous avons généré du code JSON contenant 100 enregistrements de la ressource livre en utilisant l’outil JSON Generator.  Ensuite nous l’avons sauvegardé en fichier db.json
+
