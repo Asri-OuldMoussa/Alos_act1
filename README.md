@@ -46,7 +46,7 @@ Nous mettons à disposition trois ressources :
 
 -ddmajouc: dernière date de mise à jour ou confirmation. 
 
-==Les deux dernières clé nous allons les utiliser comme variables de systèmes. ==
+==Les deux dernières clé nous allons les utiliser comme variables de systèmes==
 
 La valeur de La clé jrslsinc on la fixe à 30 jrs par exemple et elle sert à compter le nombre de jours restants pour supprimer le livre. Sa valeur sera décrémenté chaque jour. Dans le cas où le client ne nous a pas confirmé que son livre n'est pas encore vendu ou échangé pendant ces 30 jours on supprime son livre de notre base de données. Dans le cas où y'a eu une confirmation du client que sont livre n'est pas encore vendu ou échangé on la met à jour.
 
